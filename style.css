@@ -1,20 +1,77 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --Rosa: #FF69B4;
     --Branco: #fff;
 }
 
-body{
+body {
     background-image: url(./img/outro\ fundo.jpg);
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 5px solid var(--Rosa)
+}
+
+main {
+    text-align: center;
+    font-family: 'Caveat Brush';
+    color: var(--Branco);
+    -webkit-text-stroke: 0.1px #000;
+}
+
+h1 {
+    font-size: 2.0rem;
+    font-weight: 600;
+    background-color: var(--Rosa);
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: var(--Rosa);
+    height: 40px;
+    padding-top: 2px;
+}
+
+.container>a {
+    font-family: 'Chewy';
+    font-size: 20px;
+    text-decoration: none;
+    background-color: var(--Rosa);
+    color: var(--Branco);
+    width: 250px;
+    height: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 17px;
+    border-radius: 10px;
+
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer img {
+    margin: 0px 10px;
 }
